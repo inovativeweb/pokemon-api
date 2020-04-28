@@ -41,10 +41,13 @@ function connectws() {       //Se conecteaza websocket la server si se proceseaz
 
             case "get_list":
                 html = '';
+                if(received.data.length == 0){
+                    html += '<h1>  No team created yet  :( </h1>'
+                } else {
                 $(received.data).each(function (k, row) {
                     html += list_team_row(row, false);
                 })
-
+                }
                 $('#receiver_data').html(html)
                 localStorage.setItem("list_items", html);
 
