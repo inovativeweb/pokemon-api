@@ -1,4 +1,4 @@
-    ##POKEMON TEAMS API nodeJS
+ ## POKEMON TEAMS API nodeJS
  
  ![PHPStorm configuration](node/assets/img/media/rd0.png)
  
@@ -7,17 +7,13 @@
  
  Dependencies:
  
-   * [Docker for Mac](https://www.docker.com/community-edition#/download) > 17.12 must installed to use this setup
+   * [Docker for Mac/Windows](https://www.docker.com/get-started) > must installed
  
-   ##Install 
+  ## Install 
   Run in Docker
  docker-compose up
   use -d flag to run in background
- 
-  Tear down
- docker-compose down
- 
- 
+  
   To re-build
  docker-compose build
  
@@ -33,7 +29,7 @@
  
    * MySQL to port 3306
    * NodeJs to port 3000 
-   * phpMyadmin 5000
+   * phpMyadmin 5000 
    
    
    ## Hosts within your environment
