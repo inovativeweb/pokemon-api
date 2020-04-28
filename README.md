@@ -1,15 +1,15 @@
-##POKEMON TEAMS API nodeJS
+    ##POKEMON TEAMS API nodeJS
  
  ![PHPStorm configuration](node/assets/img/media/rd0.png)
  
  
- ## How to run
+  ## How to run
  
  Dependencies:
  
    * [Docker for Mac](https://www.docker.com/community-edition#/download) > 17.12 must installed to use this setup
  
-  ##Install 
+   ##Install 
   Run in Docker
  docker-compose up
   use -d flag to run in background
