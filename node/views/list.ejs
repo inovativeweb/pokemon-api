@@ -1,0 +1,38 @@
+<% include partials/index_head.ejs %>
+<div class="container-fluid ui form loading">
+    <div class="row">
+        <div class="col-xs-12">
+            
+            <div class="ui floating dropdown labeled icon button">
+                <i class="filter icon"></i>
+                <span class="text">Filter by types of pokemons</span>
+                <div class="menu">
+                  <div class="ui icon search input">
+                    <i class="search icon"></i>
+                    <input type="text" placeholder="Search type...">
+                  </div>
+                  <div class="divider"></div>
+                  <div class="header">
+                    <i class="tags icon"></i>
+                    Type
+                  </div>
+                  <div class="scrolling menu">
+                  </div>
+                </div>
+              </div>
+              <br><br>
+            </div></div>
+    <div class="row">
+        <div class="col-xs-12">
+         
+            <div class="ui form raised segment " style="display: none;">
+
+                <div class="field" id="receiver_data"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<% include partials/index_footer.ejs %>
+<script src="/assets/js/list.js"></script>
+</body>
+</html>

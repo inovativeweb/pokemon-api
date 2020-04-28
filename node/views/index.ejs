@@ -1,0 +1,77 @@
+<% include partials/index_head.ejs %>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="raspuns"></div>
+            <div id="home_page_flip">
+                <div style="min-height: 400px; height: 400px !important;">
+                    <div class="bod-flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front" style="background-color: white">
+                                <div
+                                    style="background: url('/assets/img/media/front.jpg') no-repeat center; background-size: cover; height: 400px; width: 100%">
+                                    <div class="flip-front-content fbg-overlay" style="font-size: 1em !important;">
+                                        <a href="/team/list"><div class="ui green button">
+                                            Enter
+                                        </div></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-back">
+                                <div
+                                    style="background: url('/assets/img/media/back.png') no-repeat center; background-size: cover; height: 400px; width: 100%">
+                                    <div class="flip-front-content fbg-overlay" style="font-size: 1em !important;">
+                                        <a href="/team/list"><div class="ui green button">
+                                            Enter
+                                        </div></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center ui form loading">
+            <div class="spacer100"></div>
+            <div class="ui placeholder segment">
+                <div class="ui two column very relaxed stackable grid">
+                  <div class="column">
+                    <div class="ui form">
+                      <div class="field">
+                        <div class="ui horizontal statistic">
+                            <div class="value" id="team_numbers">
+                            
+                            </div>
+                            <div class="label">
+                              Teams
+                            </div>
+                          </div>
+                      </div>      
+                    </div>
+                  </div>
+                  <div class="middle aligned column">
+                    <div class="ui horizontal statistic">
+                        <div class="value" id="pokemon_numbers">
+                       
+                        </div>
+                        <div class="label">
+                          Pokemons
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="ui vertical divider">
+                  and
+                </div>
+              </div>
+       
+        </div>
+    </div>
+</div>
+<% include partials/index_footer.ejs %>
+<script src="/assets/js/index.js"></script>
+</body>
+</html>

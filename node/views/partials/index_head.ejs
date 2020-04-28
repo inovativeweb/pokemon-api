@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pokemon</title>
+    <link rel="shortcut icon" href="/assets/img/media/favico.png">
+     <link rel="stylesheet" type="text/css" href="/assets/fonts/Lato.css">
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+
+<body style="background-color: #ebf2fa;margin-right: 15px;margin-left: 15px;min-width: 1240px;">
+    <div>
+
+        <nav class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="/">Pokemon</a>
+             
+              </div>
+
+              <ul class="nav navbar-nav">
+                  <li>    <img class="img img-responsive" src="/assets/img/media/logo.png" style="max-height: 40px;"/></li>
+                <li class="active" step="home"><a href="/"><i class="icon home green"></i>Home</a></li>
+                <li step="create"><a href="/team/create" ><i class="icon plus blue"></i>Create Team</a></li>
+                <li step="list"><a href="/team/list"><i class="icon list red"></i>List</a></li>
+              </ul>
+        
+                <div class="row text-right" style="color: #b7b7b7"> 
+            
+                <br>
+                <i class="title" title="Enable/Disable Cache" id="cache_icon" onclick="toggle_cache(this)"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="color: gray; font-size: 8px;"> Powered by</span> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://inovativeweb.ro">
+                    <img onmouseover="$(this).attr('src','https://inovativeweb.ro/media/logo_inovative_white.png')" onmouseleave="$(this).attr('src','https://inovativeweb.ro/media/logo_gray_white.png')" src="https://inovativeweb.ro/media/logo_gray_white.png" style="width: 60px"></a>
+            </div>
+            </div>
+          </nav>
+    </div>
+    <div class="ui floating message" onclick="$('.message').hide()" style="margin: 0; display: none; position: fixed; top: 0px; left: 0px; width: 100%; z-index: 55">
+      <i class="close icon"></i>
+      <div class="message_content"></div>
+  </div>
+  <div class="spacer50"></div>
+    

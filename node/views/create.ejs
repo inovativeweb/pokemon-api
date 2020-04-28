@@ -1,0 +1,29 @@
+<% include partials/index_head.ejs %>
+<div class="container" id="create_zone">
+ <form>
+<div class="ui form raised segment">
+    <div class="two fields">
+      <div class="field">
+        <label>Team Name</label>
+        <input name="team_name" placeholder="Team Name" type="text">
+      </div>
+      <div class="field text-center">
+        <label>&nbsp;</label>
+       <div class="ui button title" data-title="Create a new team" onclick="create_new_team()">Create</div>
+      </div>
+    </div>
+    <div class="field" id="receiver_data">
+
+    </div>
+    <div class="field error"></div>    
+  
+    
+
+  </div>
+  </form>
+</div>
+</div>
+<% include partials/index_footer.ejs %>
+<script src="/assets/js/create.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "connectionLimit": 100,
+    "host": "mysql",
+    "user": "testnode",
+    "password": "123456",
+    "database": "testnode",
+    "timezone": "utc",
+    "multipleStatements": true
+  }

@@ -1,0 +1,33 @@
+{
+  "name": "test-docker",
+  "version": "1.1.8",
+  "private": true,
+  "pkg": {
+    "scripts": "assets/**/*.js",
+    "assets": [
+      "views/*",
+      "views/**/*",
+      "assets/**/*"
+    ]
+  },
+  "bin": "app.js",
+  "description": "test-docker web app",
+  "dependencies": {
+    "app": "^0.1.0",
+    "axios": "^0.19.2",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "fs-extra": "^8.1.0",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "ws": "^7.2.5"
+  },
+  "scripts": {
+    "build": "npm install",
+    "start": "node app.js",
+    "package": "pkg ."
+  },
+  "license": "ISC"
+}

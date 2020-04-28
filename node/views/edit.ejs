@@ -1,0 +1,29 @@
+<% include partials/index_head.ejs %>
+<div class="container" id="create_zone">
+ <form>
+<div class="ui form raised segment loading">
+    <div class="two fields">
+      <div class="field">
+        <label>EDIT Team</label>
+        <input name="team_name" placeholder="" type="text">
+        <input name="team_id" value="<%= team_id %>" type="hidden">
+      </div>
+      <div class="field text-center">
+        <label>&nbsp;</label>
+        
+       <div class="ui button title" data-title="A random pokemon is retrieved  and added to the team" onclick="get_pokemon()">Gotta Catch 'Em All</div>
+       <div class="ui button title rename_btn" data-title="" onclick="rename_team()">Rename Team</div>
+      <i class="icon trash alternate outline red" onclick="if(confirm('Are you sure you want to delete this team? This willl delete also all pokemons from this team')){delete_team()}"></i>
+      </div>
+    </div>
+    <div class="field" id="receiver_data">
+
+    </div>
+  </div>
+  </form>
+</div>
+<% include partials/index_footer.ejs %>
+<script src="/assets/js/edit.js"></script>
+</body>
+</html>
+ 
